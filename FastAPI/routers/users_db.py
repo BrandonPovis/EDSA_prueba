@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status
-from pydantic import BaseModel
+from pydantic import BaseModel 
 from db.schemas.user import user_schema
-from db.models.user import User 
+from db.models.user import User
 from db.client import db_client
 
 
